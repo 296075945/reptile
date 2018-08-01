@@ -9,10 +9,11 @@ import com.wy.reptile.common.http.apache.HttpGet;
 
 public class Main {
 
-	private static final String Cookie = "return_url=; vjuids=-347724c48.15accfbbe1c.0.921bc42e83f8c; mail_psc_fingerprint=ca9c7bc88ddcc6b7fbdcca0e207eaad9; _ntes_nnid=f1211b41dff4b19eb51f4684caa70ea5,1514732359760; _ntes_nuid=f1211b41dff4b19eb51f4684caa70ea5; __utma=187553192.1618016211.1517027628.1517027628.1517031891.2; mp_MA-9506-0E9D982F1392_hubble=%7B%22sessionReferrer%22%3A%20%22https%3A%2F%2Fbjk.163.com%2Fhongka%2F%3Fcmpid%3Djt-wyk-mhxy%26shopid%3Dlmk.cps.jtwykmhxy%22%2C%22updatedTime%22%3A%201519312477318%2C%22sessionStartTime%22%3A%201519312477297%2C%22deviceUdid%22%3A%20%2251b43d09-6bf6-4170-94fb-8bd1e66b0820%22%2C%22initial_referrer%22%3A%20%22%24direct%22%2C%22initial_referring_domain%22%3A%20%22%24direct%22%2C%22persistedTime%22%3A%201519312477288%2C%22LASTEVENT%22%3A%20%7B%22eventId%22%3A%20%22da_u_logout%22%2C%22time%22%3A%201519312477319%7D%2C%22sessionUuid%22%3A%20%220ec5224d-243d-4c46-ab97-0fc3fa558c0f%22%2C%22superProperties%22%3A%20%7B%22cmpid%22%3A%20%22jt-wyk-mhxy%22%7D%7D; _ngd_tid=8N8p0VGa7d8GEtamolNEULqYzG%2BSJX3c; vjlast=1489497735.1527399207.12; vinfo_n_f_l_n3=bee81a6422b4f4b1.1.26.1479904184244.1527418729708.1527422145030; usertrack=ezq0pVszKRKbRP3aBDebAg==; _ga=GA1.2.1618016211.1517027628; area_id=30; nts_mail_user=15210068901@163.com:-1:1; last_login_roleid=17527687; last_login_role_serverid=421; recommend_typeids=1,2,4,3,1; recommend_url=https://xyq.cbg.163.com/cgi-bin/query.py?act=recommend_search&recommend_type=1; fingerprint=2881782602; NTES_PASSPORT=Nd4O3MfvZcPLuqZ5otK8lzD7U5sHjlEhm037L_6B5QmX.6Js.4TFkUBpiyphJZzp6Y3UqZAVJEVrGuBw7zrozMLAVSUftlEV0tXnMGiD5za.5ROpt5FqVjmRIICuwD4oPqIOAE_Koo5QsoUQD3jthQSVLJMFvnhJqcmkeSZjEiRjMa9u40urQ9AVF; P_INFO=m15210068901@163.com|1532686768|1|mail163|00&99|bej&1532618239&cc#bej&null#10#0#0|152901&1|kaola&mail163&cc|15210068901@163.com; __session__=1; cur_servername=%25E9%259B%2581%25E9%2597%25A8%25E5%2585%25B3; latest_views=421_3435978-421_3551469-421_3472280-421_3421126-421_3536943-421_3426366-421_3553312-421_3540538-421_3557519-421_3536144-421_3492920-421_3557503-421_3540239-421_3480823-421_3563694-421_3568861-421_3530569-421_3566742-421_3115538-421_3545207; sid=oNMraJKbh3HblmBaRT_e3kprA8zgX_Xmuf0fiBPW; last_login_serverid=421; wallet_data=%7B%22is_locked%22%3A%20false%2C%20%22checking_balance%22%3A%200%2C%20%22balance%22%3A%200%2C%20%22free_balance%22%3A%200%7D";
+	private static final String Cookie = "vjuids=828f39c7.15c80937a58.0.04c9bc1ed7b97; mail_psc_fingerprint=60bf59622d78c8357ee8d2d00599ef9c; _ngd_tid=kMyGJGE4ix70WScBn%2B1K7JslCId%2BDDat; _ga=GA1.2.448130814.1498183668; __utma=187553192.448130814.1498183668.1520385721.1522813676.4; __utmz=187553192.1520385721.3.3.utmcsr=baidu|utmccn=(organic)|utmcmd=organic; __oc_uuid=efefc9f0-21a5-11e8-8e47-81531415a913; __f_=1526433682476; _ntes_nnid=29e9c6598b7213b6c267e73cdffd680e,1527057223292; _ntes_nuid=29e9c6598b7213b6c267e73cdffd680e; usertrack=O2+gyltIFKdsrYcbAwPjAg==; vjlast=1496805768.1532402126.21; NTES_PASSPORT=7qeh7F5T6wqfe5altDG7kUTmoBw1xuPoopXEo3H2Pj8MsHBnse9N0v2RuYRQBhkRHlXvihWFB_FDNW.BPH58YV6oppe4QYgORDv7KfGvM9ydPfGR.PNiFK8fZZAmSIeqdiZGW_3LqqPjnqvjIXK.QjrFoB6NcOQBiD80JrhK_ufK65ymepmUjyWFN; P_INFO=m15210068901@163.com|1532418254|1|mail163|00&99|bej&1532403291&mail163#bej&null#10#0#0|152901&1|kaola&mail163&game|15210068901@163.com; nts_mail_user=15210068901@163.com:-1:1; NTES_CMT_USER_INFO=96557707%7Cm152****8901%7C%7Cfalse%7CbTE1MjEwMDY4OTAxQDE2My5jb20%3D; vinfo_n_f_l_n3=f1975aacc4b52f14.1.94.1495848138244.1532402134042.1533029754838; __session__=1; fingerprint=2511175395; area_id=30; cur_servername=%25E9%259B%2581%25E9%2597%25A8%25E5%2585%25B3; sid=f07SWekpPA9hlZ3lNQvLZEVTqiZDJyg3QuoTp3ic; last_login_serverid=421; wallet_data=%7B%22is_locked%22%3A%20false%2C%20%22checking_balance%22%3A%200%2C%20%22balance%22%3A%200%2C%20%22free_balance%22%3A%200%7D; latest_views=421_3421126-421_3543035-421_3536943-421_3569174-421_3536144-407_3935392-407_3935390-407_3935389-407_3935388-407_3935387-421_3551469";
 
 	public static void main(String[] args) {
-		list(1);
+//		list(1);
+		role("201807181500113-421-EKHAUKVCOHK2");
 	}
 
 	private static void list(int page) {
@@ -45,6 +46,10 @@ public class Main {
 	}
 
 	private static void role(String eid) {
-
+		Map<String, String> headers = new HashMap<String, String>();
+		headers.put("Cookie", Cookie);
+		String url = "https://xyq.cbg.163.com/equip?s=421&eid="+eid+"&equip_refer=33&view_loc=search_cond";
+		String body = HttpGet.getAsString(url, headers, "gb2312");
+		System.out.println(body);
 	}
 }
